@@ -1,7 +1,7 @@
 # T.C. CUMHURİYET ÜNİVERSİTESİ MÜHENDİSLİK FAKÜLTESİ BİLGİSAYAR MÜHENDİSLİĞİ BÖLÜMÜ
 
 ## İNTERNET PROGRAMALAMA DERSİ 
-## SEYAHAT ve TURİZM YÖNETİM SİSTEMİ FİNAL PROJESİNİN
+## SEYAHAT ve TURİZM YÖNETİM SİSTEMİ FİNAL PROJESİ
 
 [VERİ TABANI KISMI](https://github.com/vedatonal38/Travel-and-tourism-management-system-data-base)
 
