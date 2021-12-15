@@ -1,0 +1,138 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03.Kas.2021, 15:02:43
+    Author     : Vedat Onal
+*/
+
+.search-box {
+  text-align: center;
+  font-size: x-large;
+  height: 60px;
+}
+
+.caption {
+  margin-bottom: 50px;
+}
+
+#pswd_diff {
+    background: #dfdfdf none repeat scroll 0 0;
+    color: #fff;
+    width: 200%;
+    left: 430px;
+    position: absolute;
+    top: -117px;
+}
+#pswd_diff::before {
+    background: #dfdfdf none repeat scroll 0 0;
+    content: "";
+    height: 20px;
+    left: -13px;
+    margin-top: -8.5px;
+    position: absolute;
+    top: 50%;
+    transform: rotate(45deg);
+    width: 25px;
+}
+#pswd_diff p {
+    padding-top: 10px;
+    list-style: outside none none;
+}
+
+#pswd_info {
+    background: #dfdfdf none repeat scroll 0 0;
+    color: #fff;
+    width: 200%;
+    left: 430px;
+    position: absolute;
+    top: -275px;
+}
+
+#pswd_info h3 {
+    background: black none repeat scroll 0 0;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 0;
+    padding: 17px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#pswd_info p {
+    list-style: outside none none;
+}
+
+.valid {
+    color: green;
+    line-height: 15px;
+    padding-left: 21px;
+}
+
+.valid:before {
+    position: relative;
+    left: -5px;
+    content: "✔";
+}
+
+.invalid {
+    color: red;
+    line-height: 15px;
+    padding-left: 21px;
+}
+
+.invalid:before {
+    position: relative;
+    left: -5px;
+    content: "✖";
+}
+
+#pswd_info::before {
+    background: #dfdfdf none repeat scroll 0 0;
+    content: "";
+    height: 25px;
+    left: -13px;
+    margin-top: -12.5px;
+    position: absolute;
+    top: 50%;
+    transform: rotate(45deg);
+    width: 25px;
+}
+
+#pswd_info {
+    display:none;
+}
+
+#pswd_diff {
+    display:none;
+}
+
+#email_ {
+    display:none;
+}
+
+#email_ {
+    background: #dfdfdf none repeat scroll 0 0;
+    color: #fff;
+    width: 200%;
+    left: 430px;
+    position: absolute;
+    top: -380px;
+}
+#email_::before {
+    background: #dfdfdf none repeat scroll 0 0;
+    content: "";
+    height: 20px;
+    left: -13px;
+    margin-top: -8.5px;
+    position: absolute;
+    top: 50%;
+    transform: rotate(45deg);
+    width: 25px;
+}
+#email_ p {
+    padding-top: 10px;
+    list-style: outside none none;
+}

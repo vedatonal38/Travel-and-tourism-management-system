@@ -1,0 +1,13 @@
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+img {
+    opacity: 1;
+    border: 0;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+        line-height: inherit;
+    margin: 0;
+}

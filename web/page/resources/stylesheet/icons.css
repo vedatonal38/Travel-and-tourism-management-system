@@ -1,0 +1,111 @@
+
+.iphone-x .screen {
+    background:#ff268e;
+    background:-webkit-gradient(linear, left top, left bottom, from(#ff268e), to(#ff694f));
+    background:linear-gradient(to bottom, #ff268e 0%, #ff694f 100%)
+}
+.iphone-x .screen:before {
+    content:'';
+    width:140%;
+    height:100%;
+    position:absolute;
+    top:-30%;
+    right:-70%;
+    background:radial-gradient(ellipse at center, #3e4ff9 0%, rgba(62,79,249,0) 64%)
+}
+.iphone-x .screen:after {
+    content:'';
+    width:140%;
+    height:140%;
+    position:absolute;
+    bottom:-50%;
+    left:-30%;
+    background:radial-gradient(ellipse at center, #f7ede1 0%, rgba(247,237,225,0) 70%);
+    -webkit-transform:rotate(30deg);
+    transform:rotate(30deg)
+}
+
+#battery {
+    margin-top: 5px;
+    margin-left: 85%;
+    color: black;
+}
+#wifi {
+    margin-left: 77%;
+    margin-top: -15px;
+    color: black;
+}
+
+#lock {
+    margin-top: 50px;
+    margin-left: 40%;
+    font-size: 70px;
+    color: black;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+#digital-clock {
+    width: 55%;
+    margin: auto;
+    padding-top: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 34px;
+    text-align: center;
+    color: black;
+}
+#monthAndDay {
+    margin: auto;
+    padding-top: 4px;
+    padding-bottom: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: black;
+}
+#meesages {
+    margin: auto;
+    border: 1px solid red;
+    background-color: whitesmoke;
+//    opacity: 0.5;
+    border-radius: 10px;
+    width: 90%;
+    height: 90px;
+}
+#meesages img {
+//    opacity: 1;
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+}
+#meesages #msj {
+    color: black;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+    margin-top: 7px;
+    margin-left: 5px;
+    float: left;
+}
+#meesages #clock {
+    color: black;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+    margin-top: 7px;
+    margin-left: 110px;
+    float: left;
+}
+#meesages #title {
+    color: black;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 10px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+#meesages #msjcode {
+    color: black;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 10px;
+    margin-top: 12px;
+    margin-left: 20px;
+}

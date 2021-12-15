@@ -1,0 +1,29 @@
+SMAP
+settings_jsp.java
+JSP
+*S JSP
+*F
++ 0 settings.jsp
+settings.jsp
++ 1 metas.jsp
+page/directives/metas.jsp
++ 2 sources.jsp
+page/directives/sources.jsp
++ 3 headerAdmin.jsp
+page/directives/headerAdmin.jsp
+*L
+5,8:53
+5#1,8:61
+12#0,3:68
+5#2,14:71
+14#0,5:84
+18,5:89
+22,2:94
+5#3,6:96
+12,2:104
+13,25:106
+38,2:132
+39,18:134
+23#0,12:152
+34,4:164
+*E

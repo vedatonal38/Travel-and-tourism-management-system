@@ -1,0 +1,266 @@
+/* 
+    Created on : 28.Kas.2021, 16:48:58
+    Author     : Vedat Önal
+*/
+.driver {
+    position: absolute; 
+    left: -1000px;
+    top: -110px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+#banner {
+    color: #ffffff;
+    font-size: 46px;
+}
+#navBanner {
+    color: #ffffff;
+    font-size: 30px;
+}
+nav, .rimg {
+    margin-bottom: 15px;
+}
+h3 {
+    font-size: 50px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+//
+.rwul {
+    width: calc(100%/2);
+}
+.rwul .rwli {
+    border-bottom: 1px dotted #ccc; padding: 5px 0;
+    width: 100%;
+}
+.rwul .rwli .rwstrong {
+    width: calc(100%/3); 
+    padding-right: 10px; float: left;
+}
+.rwul .rwli .rwspan {
+    //   float: left; width: 120px;
+}
+
+p {
+    margin-top: 25px;
+}
+
+.boxed-btn2 {
+    background: #1ec6b6;
+    color: #fff;
+    display: inline-block;
+    padding: 18px 27px;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    border: 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.boxed-btn2:hover {
+    background: #ff4a52;
+    color: #fff !important;
+}
+
+.middle-slot .boxed-btn3 {
+    position: relative;
+    font-family: 'SourceSansPro-Regular',serif;
+    font-weight: 400;
+    color: #fff;
+    background-color: #1ec6b6;
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+    margin: 8px 0 10px;
+    border-radius: 0;
+    text-transform: capitalize;
+    font-size: 15px;
+    padding: 0 0;
+}
+
+/* YILDIZ TASARIM */
+.starText {
+    color:  #fff;
+    font-size: 25px;
+    transform: rotate(-30deg);
+}
+.star12 {
+    position: absolute;
+    top: -275px;
+    left: 215px;
+}
+#star12 {
+    background: blue;
+    width: 80px;
+    height: 80px;
+    //            position: relative;
+}
+#star12:before, #star12:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 80px;
+    background: blue;
+}
+#star12:before {
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+}
+#star12:after {
+    -webkit-transform: rotate(60deg);
+    -moz-transform: rotate(60deg);
+    -ms-transform: rotate(60deg);
+    -o-transform: rotate(60deg);
+}
+
+/* hotel */
+section {
+    display: block;
+}
+section::before {
+    margin-bottom: 20px;
+    border-top: 1px solid #e6e6e6;
+    position: relative;
+    height: 0;
+    display: block;
+    content: '';
+    flex: 0 0 100%;
+}
+.hotelsec {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+}
+.hotelsec .ozel {
+    margin-top: 16px;
+}
+.hotelsec .ozel2 {
+    margin-top: 20px;
+}
+.hotelsec .ozel .slot {
+    margin-bottom: -16px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #333333;
+}
+.hotelsec .ozel .slot .slotLi {
+    display: inline-flex;
+    margin-bottom: 16px;
+    margin-right: 16px;
+    background: #ccc;
+    border-radius: 25px;
+    height: 40px;
+}
+.slotLi i {
+    font-size: 30px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.slotLi div {
+    width: 70%;
+    margin-left: 10px;
+}
+.ozel2::before {
+    margin-bottom: 20px;
+    border-top: 1px solid #e6e6e6;
+    position: relative;
+    height: 0;
+    display: block;
+    content: '';
+    flex: 0 0 100%;
+}
+.ozel2 h2 {
+    margin-bottom: 24px;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #1a1c1b;
+}
+.ozel2 .oeck {
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.oeck > div {
+    vertical-align: top;
+    box-sizing: border-box;
+    display: inline-block;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 50%;
+}
+.oeck h3 {
+    margin-bottom: 8px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #1a1c1b;
+}
+.FWXvlZ._2WrGNz {
+    color: #333333;
+}
+.FWXvlZ {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+}
+.FWXvlZ li {
+    position: relative;
+    padding-left: 20px;
+}
+.FWXvlZ li span {
+    margin-left: 10px;
+}
+
+.rw-package-left {
+    flex: 1 1 49%;
+    width: 50%;
+    padding: 15px;
+    margin-top: 5px; 
+    margin-right: 5px;
+    margin-bottom: 15px; 
+}
+.rw-package-left .titleP {
+    font-size: 56px;
+}
+.rw-package-left .wh {
+    font-size: 26px;    
+}
+.rw-package-left .detailo h4 {
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 3px solid #e6e6e6;
+    margin-bottom: 25px;
+}
+.detailo .tth {
+    width: 100%;
+}
+.rw-package-right {
+    flex: 1 1 49%;
+    float: left;
+    width: 50%;
+    margin-top: 5px; 
+    margin-bottom: 15px;
+    margin-left: 5px;
+    height: 40vh;
+}
