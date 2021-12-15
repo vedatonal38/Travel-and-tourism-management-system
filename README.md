@@ -14,7 +14,7 @@
 
 > NetBeans açınız. NetBeans navigation bardaki ***File*** menün altındaki ***Import Project*** seçeneğin yan açılınan kısmında ***from ZIP*** tıklanınız.
 
-> Açılan pencereden indirdiniz ZIP dosyasını seçiniz ve projenin kururacağı klasöru belileniz.
+> Açılan pencereden indirdiniz ZIP dosyasını seçiniz ve projenin kururacağı klasöru belitiriniz.
 
 ### Projenin Veri Tabanı ayarlaması
 > Kurludumuz ZIP dosyasından sonra projenin içerisindeki ***Source Packages*** kısmın altındaki ***com.vedat.database*** paketin içinde bulunana ***DB.java*** interface (arayüz) deki kendininiz MySQL ayarlamasını yapınız.
